@@ -1,0 +1,4 @@
+version=3
+http://releases.compiz.org/([\d\.]+)[02468]/ libcompizconfig-([\d\.]+)\.tar\.gz
+
+

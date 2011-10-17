@@ -1,0 +1,123 @@
+This package was debianized by Sean Finney <seanius@debian.org>.
+
+It was downloaded from git://anongit.compiz-fusion.org/fusion/plugins-main
+
+Upstream Authors (Lead Developers, see AUTHORS for full list): 
+
+	Danny Baumann <dannybaumann@web.de>
+	David Reveman <davidr@novell.com>
+	Dennis Kasprzyk <onestone@opencompositing.org>
+	Erkin Bahceci <erkinbah@gmail.com>
+	Guillaume Seguin - iXce <guillaume@segu.in>
+	Kristian Lyngstøl <kristian@bohemians.org>
+
+Copyright:
+
+================================================================================
+The following copyright/license applies to the files mentioned below:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+./src/addhelper/*.c
+ * Copyright (c) 2007 Kristian Lyngstøl <kristian@beryl-project.org>
+
+./src/bench/*.{c,h}
+ * Copyright : (C) 2006 by Dennis Kasprzyk
+
+./src/crashhandler/crashhandler.c
+ * Copyright : (C) 2006 by Dennis Kasprzyk
+
+./src/cubecaps/cubecaps.c
+ * Copyright : (C) 2007 Guillaume Seguin
+
+./src/cubereflex/cubereflex.c
+ * Copyright : (C) 2007 by Dennis Kasprzyk
+
+./src/extrawm/extrawm.c
+ * Copyright: (C) 2007 Danny Baumann <maniac@beryl-project.org>
+
+./src/fadedesktop/fadedesktop.c
+ * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+ *                       2007 Danny Baumann <maniac@beryl-project.org>
+
+./src/firepaint/*.{c,h}
+ * Copyright : (C) 2007 by Dennis Kasprzyk
+
+./src/gears/gears.c
+ * Copyright : (C) 2007 by Dennis Kasprzyk
+
+./src/group/*.{c,h}
+ * Copyright : (C) 2006-2007 by Patrick Niklaus, Roi Cohen, Danny Baumann
+
+./src/mblur/mblur.c
+ * Copyright : (C) 2007 by Dennis Kasprzyk
+
+./src/reflex/reflex.c
+ * Copyright : (C) 2007 by Dennis Kasprzyk
+
+./src/scalefilter/scalefilter.c
+ * Copyright : (C) 2007 by Danny Baumann
+ * Copyright : (C) 2006 Diogo Ferreira
+ * Copyright : (C) 2007 Robert Carr
+
+./src/splash/splash.c
+ * Copyright : (C) 2006 by Dennis Kasprzyk
+
+./src/trailfocus/trailfocus.c
+ * Copyright (c) 2006 Kristian Lyngstøl <kristian@beryl-project.org>
+
+./src/widget/widget.c
+ * Copyright : (C) 2007 by Danny Baumann
+ * Copyright : (C) 2006 Quinn Storm
+ * Copyright : (C) 2007 Mike Dransfield
+================================================================================
+
+On Debian systems, the complete text of the GNU General Public
+License, version 2, can be found in /usr/share/common-licenses/GPL-2.
+
+================================================================================
+The following copyright/license applies to the files mentioned below:
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+ * Permission is hereby granted, free of charge, to any person obtaining
+ * a copy of this software and associated documentation files (the
+ * "Software"), to deal in the Software without restriction, including
+ * without limitation the rights to use, copy, modify, merge, publish,
+ * distribute, sublicense, and/or sell copies of the Software, and to
+ * permit persons to whom the Software is furnished to do so, subject to
+ * the following conditions:
+ *
+ * Give credit where credit is due, keep the authors message below.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ * EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ * MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ * LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
+ * OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+ * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ *
+ * Authors:
+ *   - Diogo Ferreira (playerX) <diogo@beryl-project.org>
+ *   - Danny Baumann <maniac@beryl-project.org>
+ *
+ * Copyright (c) 2007 Diogo "playerX" Ferreira
+ *
+ * This wouldn't have been possible without:
+ *   - Ideas from the compiz community (mainly throughnothing's)
+ *   - David Reveman's work
+ *
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+./src/showdesktop/showdesktop.c
+ * Copyright (c) 2007 Diogo "playerX" Ferreira
+================================================================================
+
+The Debian packaging is (C) 2007, sean finney <seanius@debian.org> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.

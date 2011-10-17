@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+CORE_ABIVERSION := $(shell sed -rn 's/^\#define[[:space:]]+CORE_ABIVERSION[[:space:]]+//p' /usr/include/compiz/core/core.h )
+
+%:
+	dh $@
+
+
+# temporary hack for a tmp file left in upstream repo
+override_dh_clean:
+	dh_clean -X plugin/ccp/src/ccp.cpp~
+	rm -f src/compizconfig.pb.cc src/compizconfig.pb.h
+
+override_dh_auto_configure:
+	dh_auto_configure -- -DCOMPIZ_BUILD_WITH_RPATH=FALSE -DCOMPIZ_PACKAGING_ENABLED=TRUE -DCOMPIZ_PLUGIN_INSTALL_TYPE=package
+
+override_dh_gencontrol:
+	dh_gencontrol -- -Vcoreabiversion=$(CORE_ABIVERSION)
+
+override_dh_install:
+	# cmake findcompiz_install use COMPIZ_DESTDIR and using COMPIZ_DESTDIR
+	# and DESTDIR together is completely broken upstream
+	# So, doing the same in debian/rules to find a way to install things in the
+	# right place, sorry for the kittens
+	cmake_dir=`cmake --system-information 2> /dev/null | grep "^CMAKE_ROOT " | sed -e 's/.*"\(.*\)"/\1/'` && \
+	mkdir -p debian/tmp$${cmake_dir}/Modules && cp cmake/FindCompizConfig.cmake debian/tmp$${cmake_dir}/Modules
+
+	dh_install --fail-missing
+

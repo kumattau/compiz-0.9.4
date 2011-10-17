@@ -1,0 +1,4 @@
+version=3
+http://releases.compiz.org/([\d\.]+)[\d]/ compiz-plugins-extra-([\d\.]+)\.tar\.gz
+
+

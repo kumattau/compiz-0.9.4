@@ -1,0 +1,26 @@
+Source: compizconfig-python
+Priority: extra
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sean Finney <seanius@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), libtool, compiz-dev (>= 0.9.0),
+ libglib2.0-dev, libxml2-dev, libxslt1-dev, libcompizconfig-dev (>= 0.9.0),
+ python-all-dev, python-pyrex, cython
+Standards-Version: 3.9.1
+XS-Python-Version: >= 2.6
+Section: python
+Homepage: http://www.compiz.org/
+Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/compizconfig-python.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/bling/compizconfig-python.git
+
+Package: python-compizconfig
+Architecture: any
+Depends: ${misc:Depends}, ${python:Depends}, ${shlibs:Depends}
+XB-Python-Version: ${python:Versions}
+Description: Compizconfig bindings for Python
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness.
+ .
+ This package provides Python bindings for the compizconfig system.

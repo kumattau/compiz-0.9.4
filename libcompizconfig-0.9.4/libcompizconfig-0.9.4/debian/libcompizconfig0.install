@@ -1,0 +1,6 @@
+usr/lib/libcompizconfig.so.*
+usr/lib/compiz/*.so
+usr/lib/compizconfig/backends/*.so
+usr/share/compiz/*xml
+config/config /etc/compizconfig
+usr/share/gconf/schemas/

@@ -1,0 +1,18 @@
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index 5612c4a..782afa8 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -1,11 +1,11 @@
+ find_package(KDE4 REQUIRED)
++include(KDE4Defaults)
++include(MacroLibrary)
+ find_package (Compiz REQUIRED)
+ 
+ add_definitions(${QT_DEFINITIONS} ${KDE4_DEFINITIONS})
+ 
+-include(KDE4Defaults)
+ include(FindPkgConfig)
+-include(MacroLibrary)
+ include(CompizCommon)
+ include(CompizPackage)
+ 

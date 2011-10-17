@@ -1,0 +1,1 @@
+compizconfig-backend-kconfig: binary-or-shlib-defines-rpath ./usr/lib/compizconfig/backends/libkconfig4.so /usr/lib

@@ -1,0 +1,35 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+CORE_ABIVERSION := $(shell sed -rn 's/^\#define[[:space:]]+CORE_ABIVERSION[[:space:]]+//p' include/core/core.h )
+
+DEFAULT_PLUGINS = "core bailer detection composite opengl decor mousepoll vpswitch regex animation snap expo move compiztoolbox place grid gnomecompat wall ezoom workarounds staticswitcher resize fade scale session"
+
+%:
+	dh $@
+
+clean:
+	dh clean
+	# upstream build leaves this around
+	rm -f po/compiz.pot
+
+override_dh_auto_configure:
+	# currently, segfault if CMAKE_BUILD_TYPE=Release
+	dh_auto_configure -- -DCOMPIZ_BUILD_WITH_RPATH=FALSE -DCOMPIZ_DEFAULT_PLUGINS=\"$(DEFAULT_PLUGINS)\" -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCOMPIZ_PACKAGING_ENABLED=TRUE
+
+override_dh_install:
+	# cmake findcompiz_install use COMPIZ_DESTDIR and using COMPIZ_DESTDIR and
+	# DESTDIR together is completely broken upstream
+	# So, doing the same in debian/rules to find a way to install things in the
+	# right place, sorry for the kittens
+	cmake_dir=`cmake --system-information 2> /dev/null | grep "^CMAKE_ROOT " | sed -e 's/.*"\(.*\)"/\1/'` && \
+	mkdir -p debian/tmp$${cmake_dir}/Modules && cp cmake/FindCompiz.cmake debian/tmp$${cmake_dir}/Modules
+
+	dh_install --fail-missing
+
+override_dh_gencontrol:
+	dh_gencontrol -- -Vcoreabiversion=$(CORE_ABIVERSION)
+

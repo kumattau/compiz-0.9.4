@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python2
+
+clean:
+	dh $@
+	# setup.py seems to unconditionally generate this guy, even on clean
+	rm -f ccsm.desktop
+	# misnamed translation
+	if [ -f po/mnk.po ]; then mv po/mnk.po po/md.po; fi
+	# other misc junk
+	rm -f installed_files
+
+override_dh_auto_install:
+	# misnamed translation
+	if [ -f po/md.po ]; then mv po/md.po po/mnk.po; fi
+	python setup.py install --root=$(CURDIR)/debian/compizconfig-settings-manager --prefix=/usr --install-layout=deb

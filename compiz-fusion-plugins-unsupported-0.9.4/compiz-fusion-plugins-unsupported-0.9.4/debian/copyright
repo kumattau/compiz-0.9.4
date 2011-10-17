@@ -1,0 +1,210 @@
+This package was debianized by Sean Finney <seanius@debian.org>.
+
+It was downloaded from git://anongit.compiz-fusion.org/fusion/plugins-main
+
+Upstream Authors (Lead Developers, see AUTHORS for full list): 
+
+	Danny Baumann <dannybaumann@web.de>
+	David Reveman <davidr@novell.com>
+	Dennis Kasprzyk <onestone@opencompositing.org>
+	Erkin Bahceci <erkinbah@gmail.com>
+	Guillaume Seguin - iXce <guillaume@segu.in>
+	Kristian Lyngstøl <kristian@bohemians.org>
+
+License:
+
+    GPL, see `/usr/share/common-licenses/GPL'
+
+The Debian packaging is (C) 2007, sean finney <seanius@debian.org> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+Copyright:
+
+./atlantis/models/ObjToC.config: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/models/ObjToC.config: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/models/ObjToC.java: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/atlantis.cpp: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/atlantis.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/atlantis.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/atlantis.cpp:/* Copyright (c) E. Lassauge, 1998. */
+./atlantis/src/atlantis.h: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/atlantis.h: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/atlantis.h: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/atlantis.h:/* Copyright (c) E. Lassauge, 1998. */
+./atlantis/src/bfish.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/bfish.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/bubble.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/bubble.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/chromis.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/chromis.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/coral.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/coral.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/coral2.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/coral2.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/crab.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/crab.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/dolphin.cpp: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/dolphin.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/dolphin.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/dolphin.cpp:/* Copyright (c) E. Lassauge, 1998. */
+./atlantis/src/fish.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/fish.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/fish2.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/fish2.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/float.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/float.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/scuttle.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/scuttle.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/shark.cpp: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/shark.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/shark.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/shark.cpp:/* Copyright (c) E. Lassauge, 1998. */
+./atlantis/src/swim.cpp: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/swim.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/swim.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/swim.cpp:/* Copyright (c) E. Lassauge, 1998. */
+./atlantis/src/util.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/util.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/water.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/water.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/whale.cpp: * (c) Copyright 1993, 1994, Silicon Graphics, Inc.
+./atlantis/src/whale.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./atlantis/src/whale.cpp: * Copyright : (C) 2007-2008 by David Mikos
+./atlantis/src/whale.cpp:/* Copyright (c) E. Lassauge, 1998. */
+./cubemodel/Makefile:# Copyright : (C) 2007 by Dennis Kasprzyk
+./cubemodel/src/cubemodel.cpp: * Copyright : (C) 2008 by David Mikos
+./cubemodel/src/cubemodel.h: * Copyright : (C) 2008 by David Mikos
+./cubemodel/src/fileParser.cpp: * Copyright : (C) 2008 by David Mikos
+./cubemodel/src/loadModel.cpp: * Copyright : (C) 2008 by David Mikos
+./elements/include/elements/elements.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/include/elements/elements.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/include/elements/elements.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/include/elements/elements.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/include/elements/elements.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/include/elements/elements.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/include/elements/elements.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/include/elements/elements.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/include/elements/elements.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/autumn/src/autumn.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/bubbles/src/bubbles.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/fireflies/src/fireflies.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/snow/src/snow.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/plugins/stars/src/stars.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/animation.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/animation.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/animation.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/animation.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/animation.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/animation.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/animation.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/animation.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/animation.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/element.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/element.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/element.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/element.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/element.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/element.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/element.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/element.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/element.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/elements.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/elements.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/elements.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/elements.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/elements.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/elements.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/elements.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/elements.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/elements.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/osd.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/osd.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/osd.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/osd.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/osd.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/osd.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/osd.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/osd.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/osd.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/private.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/private.h: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/private.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/private.h: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/private.h: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/private.h: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/private.h: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/private.h: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/private.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/texture.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/texture.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/texture.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/texture.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/texture.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/texture.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/texture.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/texture.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/texture.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./elements/src/type.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/type.cpp: * Copyright (c) 2006 Brian Jørgensen <qte@fundanemt.com>
+./elements/src/type.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/type.cpp: * Copyright (c) 2006 Eckhart P. <beryl@cornergraf.net>
+./elements/src/type.cpp: * Copyright (c) 2006 Erkin Bahceci <erkinbah@gmail.com>
+./elements/src/type.cpp: * Copyright (c) 2007 Kyle Mallory <kyle.mallory@utah.edu>
+./elements/src/type.cpp: * Copyright (c) 2007 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/type.cpp: * Copyright (c) 2008 Patrick Fisher <pat@elementsplugin.com>
+./elements/src/type.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./fakeargb/src/fakeargb.cpp: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./fakeargb/src/fakeargb.h: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./fakeargb/src/fakeargb.h: * Copyright (c) 2009 Sam Spilsbury <smspillaz@gmail.com>
+./tile/src/tile.cpp: * Copyright (c) 2006 Atie H. <atie.at.matrix@gmail.com>
+./tile/src/tile.cpp: * Copyright (c) 2006 Michal Fojtik <pichalsi(at)gmail.com>
+./tile/src/tile.cpp: * Copyright (c) 2007 Danny Baumann <maniac@beryl-project.org>
+./tile/src/tile.cpp: * Copyright (c) 2007 Kristian Lyngstol
+./tile/src/tile.cpp: * Copyright (c) 2007 Novell Inc.
+./tile/src/tile.cpp: * Copyright (c) 2007 Rivo Laks
+./tile/src/tile.cpp: * Copyright (c) 2008 Lucas Murray
+./tile/src/tile.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./tile/src/tile.h: * Copyright (c) 2006 Atie H. <atie.at.matrix@gmail.com>
+./tile/src/tile.h: * Copyright (c) 2006 Michal Fojtik <pichalsi(at)gmail.com>
+./tile/src/tile.h: * Copyright (c) 2007 Danny Baumann <maniac@beryl-project.org>
+./tile/src/tile.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>

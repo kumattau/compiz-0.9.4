@@ -1,0 +1,18 @@
+Description: Remove Makefile so dh_python2 can install extension in a right place
+Author: Janos Guljas <janos@resenje.org>
+Last-Update: 2010-11-15
+
+--- a/Makefile
++++ /dev/null
+@@ -1,11 +0,0 @@
+-all:
+-	@python setup.py build --prefix=${PREFIX}
+-
+-install: all
+-	@python setup.py install --prefix=${PREFIX}
+-
+-uninstall:
+-	@python setup.py uninstall --prefix=${PREFIX}
+-
+-clean:
+-	rm -rf build/

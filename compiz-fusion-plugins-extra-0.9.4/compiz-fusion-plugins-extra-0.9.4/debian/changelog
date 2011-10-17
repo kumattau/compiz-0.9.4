@@ -1,0 +1,110 @@
+compiz-fusion-plugins-extra (0.9.2.1+git20110224.e621355c-2) experimental; urgency=low
+
+  * Fix an FTBFS by adding a Build-Dep on libglibmm-2.4-dev
+
+ -- Sean Finney <seanius@debian.org>  Sat, 05 Mar 2011 10:54:09 +0100
+
+compiz-fusion-plugins-extra (0.9.2.1+git20110224.e621355c-1) experimental; urgency=low
+
+  [ Janos Guljas ]
+  * New upstream release.
+  * Bump standards to 3.9.1.
+  * Switch to dpkg format 3.0 (quilt)
+  * Rewrite debian/rules to use debhelper 7.
+  * Removed debian/install file.
+  * Updated debian/watch file.
+
+ -- Sean Finney <seanius@debian.org>  Fri, 04 Mar 2011 23:33:21 +0000
+
+compiz-fusion-plugins-extra (0.8.4-3) UNRELEASED; urgency=low
+
+  * Add Homepage field.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 24 Mar 2010 01:52:40 +0100
+
+compiz-fusion-plugins-extra (0.8.4-2) unstable; urgency=low
+
+  * Add Vcs-* fields.
+  * Tighten dependencies on compiz-core:
+     - Add ${compizcore:Depends} to Depends.
+     - Use dpkg-query to extract the name of the package provided by
+       compiz-core (e.g. compiz-core-abiversion-20090619), and use it in
+       dh_gencontrol.
+
+ -- Cyril Brulebois <kibi@debian.org>  Wed, 24 Mar 2010 00:45:05 +0100
+
+compiz-fusion-plugins-extra (0.8.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update Build-Depends against compiz-dev to >= 0.8.4 for ABI bump.
+
+ -- Sean Finney <seanius@debian.org>  Thu, 11 Feb 2010 21:58:40 +0100
+
+compiz-fusion-plugins-extra (0.8.2-3) unstable; urgency=low
+
+  * bump build-deps again; there was an unintended (and reverted) ABI
+    break.
+
+ -- Sean Finney <seanius@debian.org>  Sat, 11 Apr 2009 19:38:15 +0200
+
+compiz-fusion-plugins-extra (0.8.2-2) unstable; urgency=low
+
+  * update versioned build-deps for compiz packages to >= 0.8.2 
+    (Closes: #522989)
+
+ -- Sean Finney <seanius@debian.org>  Sat, 11 Apr 2009 16:05:06 +0200
+
+compiz-fusion-plugins-extra (0.8.2-1) unstable; urgency=low
+
+  * New upstream release.
+  * Add gbp.conf for use with git-buildpackage.
+  * Add build-dep on libglu1-mesa-dev
+
+ -- Sean Finney <seanius@debian.org>  Tue, 07 Apr 2009 08:56:36 +0200
+
+compiz-fusion-plugins-extra (0.7.6-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Sean Finney <seanius@debian.org>  Tue, 03 Jun 2008 00:57:11 +0200
+
+compiz-fusion-plugins-extra (0.7.4-1) unstable; urgency=low
+
+  * New upstream release.
+  * Update build-deps on bcop, compiz-dev, and compiz-fusion-plugins-main
+    to >= 0.7.3.
+
+ -- Sean Finney <seanius@debian.org>  Mon, 19 May 2008 20:10:44 +0200
+
+compiz-fusion-plugins-extra (0.6.1-1) unstable; urgency=low
+
+  * New upstream release on the 0.6.0 branch.
+
+  [Emilio Scalise]
+  * Added missing build deps: librsvg2-dev, libcairo2-dev, libsm-dev,
+    libdbus-1-dev, libjpeg62-dev, libdecoration0-dev (closes: #458159).
+
+ -- Sean Finney <seanius@debian.org>  Mon, 31 Dec 2007 20:03:44 +0100
+
+compiz-fusion-plugins-extra (0.6.0-3) unstable; urgency=low
+
+  * Update copyright information to be more specific, at the request of
+    ftp-master.
+
+ -- Sean Finney <seanius@debian.org>  Sun, 25 Nov 2007 18:26:35 +0100
+
+compiz-fusion-plugins-extra (0.6.0-2) unstable; urgency=low
+
+  * Remove autofoo generated content and create/remove it as part of the
+    standard build process instead.
+  * FTBFS fixes:  add Build-Deps on automake1.9, compiz-fusion-bcop,
+    compiz-fusion-plugins-main (yes, this is needed), libgconf2-dev,
+    libglib2.0-dev, libtool, libxml2-dev, libxslt1-dev.
+
+ -- Sean Finney <seanius@debian.org>  Sat, 24 Nov 2007 13:10:17 +0100
+
+compiz-fusion-plugins-extra (0.6.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #431749).
+
+ -- Sean Finney <seanius@debian.org>  Sat, 10 Nov 2007 10:20:56 +0100

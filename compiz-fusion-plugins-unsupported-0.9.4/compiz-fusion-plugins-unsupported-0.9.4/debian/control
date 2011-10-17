@@ -1,0 +1,31 @@
+Source: compiz-fusion-plugins-unsupported
+Priority: extra
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sean Finney <seanius@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, xsltproc, pkg-config,
+ compiz-dev (>= 0.9.0), libdecoration0-dev (>= 0.9.0), compiz-fusion-plugins-main (>= 0.9),
+ libgconf2-dev, libglib2.0-dev, 
+ libglibmm-2.4-dev,
+ libglu1-mesa-dev, libjpeg62-dev, libxml2-dev,
+ libxslt1-dev, libcairo2-dev, libpango1.0-dev, librsvg2-dev, libsm-dev,
+ libboost1.42-dev, libboost-serialization1.42-dev
+Standards-Version: 3.9.1
+Section: x11
+Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/compiz-fusion-plugins-unsupported.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/bling/compiz-fusion-plugins-unsupported.git
+Homepage: http://wiki.compiz.org/PluginsUnsupported
+
+Package: compiz-fusion-plugins-unsupported
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${compizcore:Depends}
+Breaks: compiz-core (<< 0.9.0)
+Description: Compiz Fusion plugins - "unsupported" collection
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness.
+ .
+ This package provides an extended collection of plugins, which have received
+ the least amount of review and are the most likely to be problematic on your
+ system.

@@ -1,0 +1,30 @@
+Source: compiz-fusion-plugins-main
+Priority: extra
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sean Finney <seanius@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, xsltproc,
+ compiz-dev (>= 0.9.0), libdecoration0-dev (>= 0.9.0), pkg-config,
+ libgconf2-dev, libglib2.0-dev, 
+ libglibmm-2.4-dev,
+ libglu1-mesa-dev, libjpeg62-dev, libxml2-dev,
+ libxslt1-dev, libcairo2-dev, libpango1.0-dev, librsvg2-dev, libsm-dev,
+ libdbus-1-dev, libboost1.42-dev, libboost-serialization1.42-dev
+Standards-Version: 3.9.1
+Section: x11
+Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/compiz-fusion-plugins-main.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/bling/compiz-fusion-plugins-main.git
+Homepage: http://wiki.compiz.org/PluginsMain
+
+Package: compiz-fusion-plugins-main
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ${compizcore:Depends}
+Breaks: compiz-core (<< 0.9.0)
+Description: Compiz Fusion plugins - main collection
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness.
+ .
+ This package provides the primary and most well tested set of plugins
+ from the compiz-fusion project.

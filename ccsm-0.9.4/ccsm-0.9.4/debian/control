@@ -1,0 +1,25 @@
+Source: ccsm
+Priority: extra
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sean Finney <seanius@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), intltool, python (>= 2.6)
+Standards-Version: 3.9.1
+XS-Python-Version: >= 2.6
+Section: x11
+Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/ccsm.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/bling/ccsm.git
+Homepage: http://wiki.compiz.org/CCSM
+
+Package: compizconfig-settings-manager
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends}, librsvg2-common, python-compizconfig (>= 0.9.0), python-gtk2
+XB-Python-Version: ${python:Versions}
+Description: Compizconfig Settings Manager
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness.
+ .
+ This package provides python-based "settings manager", a graphical interface
+ used to administer the various options for the compiz-fusion system.

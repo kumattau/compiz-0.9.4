@@ -1,0 +1,26 @@
+Source: compizconfig-backend-gconf
+Priority: extra
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Uploaders: Sean Finney <seanius@debian.org>
+Build-Depends: debhelper (>= 7.0.50~), cmake, intltool, pkg-config, libtool,
+ compiz-dev (>= 0.9.0), libcompizconfig-dev (>= 0.9.0), libglib2.0-dev,
+ libgconf2-dev, libxslt1-dev, libxml2-dev
+Standards-Version: 3.9.1
+Section: x11
+Homepage: http://www.compiz.org/
+Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/compizconfig-backend-gconf.git
+Vcs-Browser: http://git.debian.org/?p=pkg-xorg/bling/compizconfig-backend-gconf.git
+
+Package: compizconfig-backend-gconf
+Architecture: any
+Depends: compiz-core-abiversion-${coreabiversion},
+ ${shlibs:Depends}, ${misc:Depends}
+Description: Compiz Fusion configuration system - gconf backend
+ Compiz Fusion is the result of the re-unification of the Beryl-project
+ and the community around the Compiz Window Manager. It seeks to provide
+ an easy and fun-to-use windowing environment, allowing use of the
+ graphics hardware to provide impressive effects, amazing speed and
+ unrivalled usefulness.
+ .
+ This package provides the gconf-based configuration backend for the 
+ compiz-fusion plugin system.

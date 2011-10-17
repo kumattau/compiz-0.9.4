@@ -1,0 +1,147 @@
+This package was debianized by Sean Finney <seanius@debian.org>.
+
+It was downloaded from git://anongit.compiz-fusion.org/fusion/plugins-main
+
+Upstream Authors (Lead Developers, see AUTHORS for full list): 
+
+	Danny Baumann <dannybaumann@web.de>
+	David Reveman <davidr@novell.com>
+	Dennis Kasprzyk <onestone@opencompositing.org>
+	Erkin Bahceci <erkinbah@gmail.com>
+	Guillaume Seguin - iXce <guillaume@segu.in>
+	Kristian Lyngstøl <kristian@bohemians.org>
+
+License:
+
+    GPL, see `/usr/share/common-licenses/GPL'
+
+The Debian packaging is (C) 2007, sean finney <seanius@debian.org> and
+is licensed under the GPL, see `/usr/share/common-licenses/GPL'.
+
+Copyright:
+
+./neg/src/neg.h: * Copyright (c) 2006 Darryll Truchan <moppsy@comcast.net>
+./neg/src/neg.cpp: * Copyright (c) 2006 Darryll Truchan <moppsy@comcast.net>
+./scaleaddon/src/scaleaddon.h: * Copyright : (C) 2007 by Danny Baumann
+./scaleaddon/src/scaleaddon.h: * Copyright : (C) 2006 Diogo Ferreira
+./scaleaddon/src/scaleaddon.h: * Copyright : (C) 2009 by Sam Spilsbury
+./scaleaddon/src/scaleaddon.cpp: * Copyright : (C) 2007 by Danny Baumann
+./scaleaddon/src/scaleaddon.cpp: * Copyright : (C) 2006 Diogo Ferreira
+./scaleaddon/src/scaleaddon.cpp: * Copyright : (C) 2009 by Sam Spilsbury
+./scaleaddon/src/scaleaddon.cpp: * Copyright (C) 2007 Rivo Laks <rivolaks@hot.ee>
+./scaleaddon/src/scaleaddon.cpp: * Copyright (C) 2008 Lucas Murray <lmurray@undefinedfire.com>
+./put/src/put.h: * Copyright (c) 2006 Darryll Truchan <moppsy@comcast.net>
+./put/src/put.cpp: * Copyright (c) 2006 Darryll Truchan <moppsy@comcast.net>
+./snap/src/snap.cpp: * Copyright (C) 2009 Guillaume Seguin
+./snap/src/snap.h: * Copyright (C) 2009 Guillaume Seguin
+./resizeinfo/src/resizeinfo.cpp: * Copyright (c) 2007 Robert Carr <racarr@opencompositing.org>
+./resizeinfo/src/resizeinfo.cpp: * Copyright (c) 2007 Danny Baumann <maniac@opencompositing.org>
+./resizeinfo/src/resizeinfo.h: * Copyright (c) 2007 Robert Carr <racarr@opencompositing.org>
+./resizeinfo/src/resizeinfo.h: * Copyright (c) 2007 Danny Baumann <maniac@opencompositing.org>
+./kdecompat/src/kdecompat.h: * Copyright : (C) 2007 by Danny Baumann
+./kdecompat/src/kdecompat.h: * Copyright : (C) 2007 David Reveman
+./kdecompat/src/kdecompat.cpp: * Copyright : (C) 2007 by Danny Baumann
+./kdecompat/src/kdecompat.cpp: * Copyright : (C) 2007 David Reveman
+./wall/src/wall.h: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./wall/src/wall.cpp: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./staticswitcher/.git/hooks/pre-rebase.sample:# Copyright (c) 2006, 2008 Junio C Hamano
+./staticswitcher/src/staticswitcher.cpp: * Copyright : (C) 2008 by Danny Baumann
+./staticswitcher/src/staticswitcher.cpp: * Copyright : (C) 2007 David Reveman
+./staticswitcher/src/staticswitcher.h: * Copyright : (C) 2008 by Danny Baumann
+./staticswitcher/src/staticswitcher.h: * Copyright : (C) 2007 David Reveman
+./mousepoll/include/mousepoll/mousepoll.h: * Copyright : (C) 2008 by Dennis Kasprzyk
+./mousepoll/src/private.h: * Copyright : (C) 2008 by Dennis Kasprzyk
+./mousepoll/src/mousepoll.cpp: * Copyright : (C) 2008 by Dennis Kasprzyk
+./expo/src/expo.h: * Copyright (c) 2008 Dennis Kasprzyk <racarr@opencompositing.org>
+./expo/src/expo.h: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./expo/src/expo.cpp: * Copyright (c) 2008 Dennis Kasprzyk <racarr@opencompositing.org>
+./expo/src/expo.cpp: * Copyright (c) 2006 Robert Carr <racarr@beryl-project.org>
+./shift/src/shift.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./shift/src/shift.cpp: * Copyright : (C) 2007 by Danny Baumann
+./shift/src/shift.cpp: * Copyright : (C) 2007 David Reveman
+./shift/src/shift.cpp: * Copyright : (C) 2007 Robert Carr
+./shift/src/shift.h: * Copyright : (C) 2007 by Dennis Kasprzyk
+./shift/src/shift.h: * Copyright : (C) 2007 by Danny Baumann
+./shift/src/shift.h: * Copyright : (C) 2007 David Reveman
+./shift/src/shift.h: * Copyright : (C) 2007 Robert Carr
+./text/include/text/text.h: * Copyright: (C) 2006 Patrick Niklaus
+./text/src/private.h: * Copyright: (C) 2006-2007 Patrick Niklaus, Danny Baumann, Dennis Kasprzyk
+./text/src/text.cpp: * Copyright: (C) 2006-2007 Patrick Niklaus, Danny Baumann, Dennis Kasprzyk
+./jpeg/src/imgjpeg.cpp: * Copyright: (C) 2006 Nicholas Thomas
+./jpeg/src/imgjpeg.h: * Copyright © 2006 Novell, Inc.
+./jpeg/src/imgjpeg.h: * fee, provided that the above copyright notice appear in all copies
+./jpeg/src/imgjpeg.h: * and that both that copyright notice and this permission notice
+./session/src/session.cpp: * Copyright (c) 2008 Travis Watkins <amaranth@ubuntu.com>
+./session/src/session.cpp: * Copyright (c) 2008 Danny Baumann <maniac@opencompositing.org>
+./session/src/session.cpp: * Copyright (c) 2006 Patrick Niklaus
+./session/src/session.h: * Copyright (c) 2008 Travis Watkins <amaranth@ubuntu.com>
+./session/src/session.h: * Copyright (c) 2008 Danny Baumann <maniac@opencompositing.org>
+./session/src/session.h: * Copyright (c) 2006 Patrick Niklaus
+./colorfilter/src/parser.cpp: * Copyright (c) 2007 Guillaume Seguin <guillaume@segu.in>
+./colorfilter/src/parser.cpp: * Copyright (c) 2010 Canonical Ltd. <sam.spilsbury@canonical.com>
+./colorfilter/src/parser.h: * Copyright (c) 2007 Guillaume Seguin <guillaume@segu.in>
+./colorfilter/src/parser.h: * Copyright (c) 2010 Canonical Ltd. <sam.spilsbury@canonical.com>
+./colorfilter/src/colorfilter.h: * Copyright (c) 2007 Guillaume Seguin <guillaume@segu.in>
+./colorfilter/src/colorfilter.h: * Copyright (c) 2009 Sam Spilsbury <smspillaz@gmail.com>
+./colorfilter/src/colorfilter.cpp: * Copyright (c) 2007 Guillaume Seguin <guillaume@segu.in>
+./ezoom/src/ezoom.cpp: * Copyright © 2005 Novell, Inc.
+./ezoom/src/ezoom.cpp: * Copyright (C) 2007, 2008,2010 Kristian Lyngstøl
+./ezoom/src/ezoom.cpp: * fee, provided that the above copyright notice appear in all copies
+./ezoom/src/ezoom.cpp: * and that both that copyright notice and this permission notice
+./ezoom/src/ezoom.h: * Copyright © 2005 Novell, Inc.
+./ezoom/src/ezoom.h: * Copyright (C) 2007, 2008 Kristian Lyngstøl
+./ezoom/src/ezoom.h: * Copyright (C) 2009, Sam Spilsbury
+./ezoom/src/ezoom.h: * fee, provided that the above copyright notice appear in all copies
+./ezoom/src/ezoom.h: * and that both that copyright notice and this permission notice
+./titleinfo/src/titleinfo.cpp: * Copyright : (C) 2009 by Danny Baumann
+./titleinfo/src/titleinfo.cpp: * Copyright : (C) 2009 Sam Spilsbury
+./titleinfo/src/titleinfo.h: * Copyright : (C) 2009 by Danny Baumann
+./titleinfo/src/titleinfo.h: * Copyright : (C) 2009 Sam Spilsbury
+./vpswitch/src/vpswitch.h: * Copyright (c) 2007 Dennis Kasprzyk <onestone@opencompositing.org>
+./vpswitch/src/vpswitch.h: * Copyright (c) 2007 Robert Carr <racarr@opencompositing.org>
+./vpswitch/src/vpswitch.h: * Copyright (c) 2007 Michael Vogt <mvo@ubuntu.com>
+./vpswitch/src/vpswitch.cpp: * Copyright (c) 2007 Dennis Kasprzyk <onestone@opencompositing.org>
+./vpswitch/src/vpswitch.cpp: * Copyright (c) 2007 Robert Carr <racarr@opencompositing.org>
+./vpswitch/src/vpswitch.cpp: * Copyright (c) 2007 Michael Vogt <mvo@ubuntu.com>
+./opacify/src/opacify.cpp: * Copyright (c) 2006 Kristian Lyngstøl <kristian@beryl-project.org>
+./opacify/src/opacify.h: * Copyright (c) 2006 Kristian Lyngstøl <kristian@beryl-project.org>
+./workarounds/src/workarounds.cpp: * Copyright (C) 2007 Andrew Riedi <andrewriedi@gmail.com>
+./workarounds/src/workarounds.cpp: * Copyright (c) 2007 Dennis Kasprzyk <onestone@opencompositing.org>
+./workarounds/src/workarounds.cpp: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./workarounds/src/workarounds.h: * Copyright (C) 2007 Andrew Riedi <andrewriedi@gmail.com>
+./workarounds/src/workarounds.h: * Copyright (c) 2007 Dennis Kasprzyk <onestone@opencompositing.org>
+./workarounds/src/workarounds.h: * Copyright (c) 2008 Sam Spilsbury <smspillaz@gmail.com>
+./mag/src/mag.cpp: * Copyright : (C) 2008 by Dennis Kasprzyk
+./mag/src/mag.h: * Copyright : (C) 2008 by Dennis Kasprzyk
+./animation/src/wave.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/glide.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/extensionplugin.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/zoomside.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/horizontalfold.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/options.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/dodge.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/transform.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/rollup.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/grid.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/fade.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/focusfade.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/dream.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/restack.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/animation.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/magiclamp.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./animation/src/curvedfold.cpp: * Copyright : (C) 2006 Erkin Bahceci
+./winrules/src/winrules.h: * Copyright (C) 2007 Bellegarde Cedric (gnumdk (at) gmail.com)
+./winrules/src/winrules.h: * Copyright (C) 2009 Sam Spilsbury (smspillaz@gmail.com)
+./winrules/src/winrules.cpp: * Copyright (C) 2007 Bellegarde Cedric (gnumdk (at) gmail.com)
+./thumbnail/src/thumbnail.h: * Copyright : (C) 2007 by Dennis Kasprzyk
+./thumbnail/src/thumbnail.h: * Copyright : (C) 2009 by Sam Spilsbury
+./thumbnail/src/thumbnail.h: * Copyright : (C) 2007 Stjepan Glavina
+./thumbnail/src/thumbnail.cpp: * Copyright : (C) 2007 by Dennis Kasprzyk
+./thumbnail/src/thumbnail.cpp: * Copyright : (C) 2009 by Sam Spilsbury
+./thumbnail/src/thumbnail.cpp: * Copyright : (C) 2007 Stjepan Glavina
+./ring/src/ring.h: * Copyright : (C) 2007 by Danny Baumann
+./ring/src/ring.h: * Copyright : (C) 2007 David Reveman
+./ring/src/ring.h: * Copyright : (C) 2009 Sam Spilsbury
+./ring/src/ring.cpp: * Copyright : (C) 2007 by Danny Baumann
+./ring/src/ring.cpp: * Copyright : (C) 2007 David Reveman
+./ring/src/ring.cpp: * Copyright : (C) 2009 Sam Spilsbury
