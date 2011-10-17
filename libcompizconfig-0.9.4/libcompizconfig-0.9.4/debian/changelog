@@ -1,3 +1,9 @@
+libcompizconfig (0.9.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- kumattau <kumattau@gmail.com>  Tue, 18 Oct 2011 00:34:29 +0900
+
 libcompizconfig (0.9.2.1+git20110226.78a7cc8c-1) experimental; urgency=low
 
   * Incorporate Janos Guljas' compiz packaging work, thanks!

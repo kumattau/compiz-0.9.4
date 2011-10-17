@@ -1,3 +1,9 @@
+ccsm (0.9.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- kumattau <kumattau@gmail.com>  Tue, 18 Oct 2011 00:35:31 +0900
+
 ccsm (0.9.2.1+git20110224.cb1268cb-1) experimental; urgency=low
 
 

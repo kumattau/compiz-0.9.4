@@ -1,3 +1,9 @@
+compizconfig-backend-gconf (0.9.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- kumattau <kumattau@gmail.com>  Tue, 18 Oct 2011 00:35:16 +0900
+
 compizconfig-backend-gconf (0.9.2.1+git20110226.g861a1d4-2) experimental; urgency=low
 
   * Add a Depends compiz-core-abiversion-${coreabiversion}

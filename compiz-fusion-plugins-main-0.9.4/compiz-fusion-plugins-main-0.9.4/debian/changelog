@@ -1,3 +1,9 @@
+compiz-fusion-plugins-main (0.9.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- kumattau <kumattau@gmail.com>  Tue, 18 Oct 2011 00:34:47 +0900
+
 compiz-fusion-plugins-main (0.9.2.1+git20110224.g4a6783f-2) experimental; urgency=low
 
   * Fix FTBFS by adding Build-Dep on libglibmm-2.4-dev

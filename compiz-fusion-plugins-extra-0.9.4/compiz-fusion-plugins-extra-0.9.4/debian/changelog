@@ -1,3 +1,9 @@
+compiz-fusion-plugins-extra (0.9.4-1) experimental; urgency=low
+
+  * New upstream release.
+
+ -- kumattau <kumattau@gmail.com>  Tue, 18 Oct 2011 00:35:00 +0900
+
 compiz-fusion-plugins-extra (0.9.2.1+git20110224.e621355c-2) experimental; urgency=low
 
   * Fix an FTBFS by adding a Build-Dep on libglibmm-2.4-dev
