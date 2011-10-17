@@ -1,0 +1,62 @@
+--- ./libengine/themer.c	2011-10-16 20:45:38.000000000 +0900
++++ ./libengine/themer.c.new	2011-10-16 21:42:09.262299289 +0900
+@@ -874,7 +874,7 @@
+     err = dlerror();
+     if (!hand || err)
+     {
+-        g_warning(err);
++        g_warning("%s", err);
+         if (hand)
+             dlclose(hand);
+         return;
+@@ -885,7 +885,7 @@
+         layout_settings_proc lay;
+         lay = dlsym(hand,"layout_engine_settings");
+         if ((err=dlerror()))
+-            g_warning(err);
++            g_warning("%s", err);
+         if (lay)
+         {
+             get_meta_info_proc meta;
+@@ -896,7 +896,7 @@
+                 "<i><small>%s</small></i>";
+             meta = dlsym(hand,"get_meta_info");
+             if ((err=dlerror()))
+-                g_warning(err);
++                g_warning("%s", err);
+                 d->meta.description=g_strdup("No Description");
+                 d->meta.version=g_strdup("0.0");
+                 d->meta.last_compat=g_strdup("0.0");
+
+--- ./src/engine_loader.c	2011-10-16 20:45:38.000000000 +0900
++++ ./src/engine_loader.c.new	2011-10-16 21:42:30.199692512 +0900
+@@ -54,7 +54,7 @@
+         newengine = dlopen(path,RTLD_NOW);
+         if (!newengine)
+         {
+-            g_warning(dlerror());
++            g_warning("%s", dlerror());
+             //here's where we should bail out somehow
+         }
+     }
+
+--- ./themer/main.c	2011-10-16 20:45:38.000000000 +0900
++++ ./themer/main.c.new	2011-10-16 21:53:26.946265690 +0900
+@@ -264,7 +264,7 @@
+             GTK_DIALOG_DESTROY_WITH_PARENT,
+             GTK_MESSAGE_INFO,
+             GTK_BUTTONS_CLOSE,
+-            val);
++            "%s", val);
+     gtk_dialog_run(GTK_DIALOG(w));
+     gtk_widget_destroy(w);
+ }
+@@ -275,7 +275,7 @@
+             GTK_DIALOG_DESTROY_WITH_PARENT,
+             GTK_MESSAGE_ERROR,
+             GTK_BUTTONS_CLOSE,
+-            val);
++            "%s", val);
+     gtk_dialog_run(GTK_DIALOG(w));
+     gtk_widget_destroy(w);
+ }

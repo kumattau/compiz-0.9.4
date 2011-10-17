@@ -1,0 +1,45 @@
+Source: emerald
+Section: x11
+Priority: optional
+Maintainer: kumattau <kumattau@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), autotools-dev, quilt, dh-autoreconf,
+ compiz-dev (>= 0.9.4), libgtk2.0-dev,
+ libpango1.0-dev, libwnck-dev,  libxml-parser-perl, 
+ libdecoration0-dev (>= 0.9.4)
+Standards-Version: 3.8.1
+
+Package: emerald
+Architecture: any
+Depends: compiz-plugins, libdecoration0, ${shlibs:Depends}, ${misc:Depends}
+Description: Decorator for compiz-fusion
+ Emerald is a window decorator for the Compiz window manager, using a custom
+ theme format (*.emerald). It is highly customizable and supports different
+ theme engines, with transparency and precise placement of borders and window
+ title elements.
+ .
+ This package provides a decorator for compiz-fusion and a themer application.
+
+Package: libemeraldengine0
+Architecture: any
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Decoration engines for compiz-fusion
+ Emerald is a window decorator for the Compiz window manager, using a custom
+ theme format (*.emerald). It is highly customizable and supports different
+ theme engines, with transparency and precise placement of borders and window
+ title elements.
+ .
+ This package provides some engines for drawing decoration on compiz-fusion.
+
+Package: libemeraldengine-dev
+Architecture: any
+Section: libdevel
+Depends: ${shlibs:Depends}, ${misc:Depends}, libemeraldengine0 (=${binary:Version})
+Description: Development files for emerald engines
+ Emerald is a window decorator for the Compiz window manager, using a custom
+ theme format (*.emerald). It is highly customizable and supports different
+ theme engines, with transparency and precise placement of borders and window
+ title elements.
+ .
+ This package contains the headers and development files needed to
+ build engines for emerald.

@@ -1,0 +1,63 @@
+This package was debianised by Nicholas Thomas <nick@lupine.me.uk> on
+Sat, 17 Mar 2007 23:53:45 +0000.
+
+It was previously downloaded from http://releases.beryl-project.org/
+but now from http://releases.compiz-fusion.org/. The git repository is
+at git://anongit.compiz-fusion.org/fusion/decorators/emerald.
+
+Upstream Authors:
+
+    Quinn Storm <livinglatexkali@gmail.com>
+    David Reveman <davidr@novell.com>
+
+Information:
+
+    All of the theme engines use code from Quinn Storm's legacy engine
+    and are GPL. It also incorporates code from cgwd by David Reveman,
+    Copyright (C) Novell 2006, available under the MIT license.
+
+Copyright:
+
+    For all files not listed below:
+     Copyright (C) 2006 Quinn Storm <livinglatexkali@gmail.com>
+
+    Legacy theme engine (legacy.c)
+     Copyright (C) 2006 Quinn Storm <livinglatexkali@gmail.com>
+
+    Vrunner theme engine (vrunner.c)
+     Copyright (C) 2006 Varun <varunratnakar@gmail.com>
+
+    Oxygen theme engine (oxygen.c)
+     Copyright (C) 2006 Alain <big_al326@hotmail.com>
+
+    Pixmap theme engine (pixmap.c)
+     Copyright (C) 2006 Varun <varunratnakar@gmail.com>
+
+    Truglass theme engine (truglass.c)
+     Copyright (C) 2006 Alain <big_al326@hotmail.com>
+
+    Zootreeves theme engine (zootreeves.c)
+     Copyright (C) 2006 Ben Reeves <john@reeves160.freeserve.co.uk>
+
+License:
+
+    This program is free software; you can redistribute it and/or
+    modify it under the terms of the GNU General Public License
+    as published by the Free Software Foundation; either version 2
+    of the License, or (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    On Debian systems, the complete text of the GNU General Public
+    License can be found in /usr/share/common-licenses/GPL.
+
+The Debian packaging is licensed under the GNU General Public License
+(see `/usr/share/common-licenses/GPL') and it is copyrighted by:
+  (C) 2006:
+      Quinn Storm <livinglatexkali@gmail.com> and
+      Shawn Starr <shawn.starr@rogers.com>
+  (C) 2007-2008:
+      Contributors
