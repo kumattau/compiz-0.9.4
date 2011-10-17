@@ -1,0 +1,11 @@
+--- a/notification/src/notification.cpp	2011-03-07 18:38:09.000000000 +0900
++++ b/notification/src/notification.cpp	2011-10-18 01:48:28.569928473 +0900
+@@ -55,7 +55,7 @@
+     logLevel = (char *) logLevelToString (level);
+ 
+     n = notify_notification_new (logLevel, message,
+-				 iconUri.c_str (), NULL);
++				 iconUri.c_str ());
+ 
+     timeout = optionGetTimeout ();
+     if (timeout > 0)

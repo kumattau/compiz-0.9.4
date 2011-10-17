@@ -7,7 +7,7 @@ Build-Depends: debhelper (>= 7.0.50~), cmake, pkg-config, xsltproc,
  libglibmm-2.4-dev,
  librsvg2-dev, libcairo2-dev, libsm-dev, libdbus-1-dev, libjpeg62-dev,
  libxslt1-dev, libglu1-mesa-dev, libnotify-dev,
- libboost1.42-dev, libboost-serialization1.42-dev
+ libboost-dev, libboost-serialization-dev
 Standards-Version: 3.9.1
 Section: x11
 Vcs-Git: git://git.debian.org/git/pkg-xorg/bling/compiz-fusion-plugins-extra.git

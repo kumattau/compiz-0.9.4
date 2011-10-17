@@ -11,6 +11,8 @@ clean:
 	if [ -f po/mnk.po ]; then mv po/mnk.po po/md.po; fi
 	# other misc junk
 	rm -f installed_files
+	# build directory
+	rm -fr build/*
 
 override_dh_auto_install:
 	# misnamed translation

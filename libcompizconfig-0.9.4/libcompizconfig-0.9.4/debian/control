@@ -2,9 +2,9 @@ Source: libcompizconfig
 Priority: extra
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Uploaders: Sean Finney <seanius@debian.org>
-Build-Depends: debhelper (>= 7.0.50~), cmake, intltool, compiz-dev (>= 0.9.2.1),
+Build-Depends: debhelper (>= 7.0.50~), cmake, intltool, compiz-dev (>= 0.9.4),
  pkg-config, libxml2-dev, libxslt1-dev, libprotobuf-dev, protobuf-compiler,
- libxslt1-dev, xsltproc, libboost1.42-dev, libboost-serialization1.42-dev
+ libxslt1-dev, xsltproc, libboost-dev, libboost-serialization-dev
 Standards-Version: 3.9.1
 Section: libs
 Homepage: http://www.compiz.org/
